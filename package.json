@@ -1,0 +1,25 @@
+{
+  "name": "jstdd",
+  "version": "1.0.0",
+  "description": "Nossa biblioteca do curso de JS com TDD na prática.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusduraes/jstdd-couse.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library",
+    "course"
+  ],
+  "author": "Mateus Duraes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusduraes/jstdd-couse/issues"
+  },
+  "homepage": "https://github.com/mateusduraes/jstdd-couse#readme"
+}
