@@ -4,6 +4,10 @@ var calc = require('../src/main.js');
 
 describe('Calc', function() {
 
+  var arr;
+  beforeEach(function() {
+    arr = [1, 2, 3];
+  });
   // smoke tests
   describe('smoke tests', function() {
     it('should exist the calc module', function() {
@@ -32,23 +36,36 @@ describe('Calc', function() {
   });
 
   describe('Sum', function() {
-    it('should return 4 when `sum(2,2)`', function() {
+    it('should return 4 when `sum(2, 2)`', function() {
       expect(calc.sum(2, 2)).to.be.equal(4);
+    });
+
+    it('should return 7 when `sum(2, 2, 3)`', function() {
+      expect(calc.sum(2, 2, 3)).to.be.equal(7);
     });
   });
 
   describe('Sub', function() {
-    it('should return 4 when `sub(6,2)`', function() {
+    it('should return 4 when `sub(6, 2)`', function() {
       expect(calc.sub(6, 2)).to.be.equal(4);
     });
-    it('should return -4 when `sub(6,10)`', function() {
+
+    it('should return -4 when `sub(6, 10)`', function() {
       expect(calc.sub(6, 10)).to.be.equal(-4);
+    });
+
+    it('should return -9 when `sub(6, 10, 5)`', function() {
+      expect(calc.sub(6, 10, 5)).to.be.equal(-9);
     });
   });
 
   describe('Mult', function() {
-    it('should return 4 when `mult(2,2)`', function() {
+    it('should return 4 when `mult(2, 2)`', function() {
       expect(calc.mult(2, 2)).to.be.equal(4);
+    });
+
+    it('should return 12 when `mult(2, 2, 3)`', function() {
+      expect(calc.mult(2, 2, 3)).to.be.equal(12);
     });
   });
 
