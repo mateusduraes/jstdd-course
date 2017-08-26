@@ -4,10 +4,6 @@ var calc = require('../src/main.js');
 
 describe('Calc', function() {
 
-  var arr;
-  beforeEach(function() {
-    arr = [1, 2, 3];
-  });
   // smoke tests
   describe('smoke tests', function() {
     it('should exist the calc module', function() {
