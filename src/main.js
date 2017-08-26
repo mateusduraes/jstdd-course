@@ -1,6 +1,18 @@
-const b = 2;
-const c = 3;
+module.exports = {
+  sum() {
 
-const sum = () => b + c;
+  },
 
-sum();
+  sub() {
+
+  },
+
+  div() {
+
+  },
+
+  mult() {
+
+  },
+
+};
