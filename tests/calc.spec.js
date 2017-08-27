@@ -1,4 +1,3 @@
-/* eslint-disable */
 import {expect} from 'chai';
 import { sum, sub, mult, div } from '../src/main';
 
